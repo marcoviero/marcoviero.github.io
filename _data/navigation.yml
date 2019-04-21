@@ -8,6 +8,8 @@ main:
     url: /cv #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Downloads"
     url: /downloads #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/# - title: "About"
+  #- title: "Talks"
+  #  url: /talks #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Publications"
     url: /publications #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
