@@ -2,14 +2,14 @@
 main:
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  #- title: "Blog"
-  #  url: /blog #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Publications"
-    url: /publications #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Blog"
+    url: /blog #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "CV"
     url: /cv #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Downloads"
     url: /downloads #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/# - title: "About"
+  - title: "Publications"
+    url: /publications #https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   #- title: "Blog"
   #   url: https://marcoviero.github.io/blog.md
