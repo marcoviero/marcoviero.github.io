@@ -5,7 +5,7 @@ body {
     font-weight: 300;
     color: #131337;
 }
-    
+
 .center {
     margin: 20px auto;
     width: 60%;
@@ -19,7 +19,7 @@ nav ul, footer ul {
     font-family: "Yantramanav", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     padding: 0px;
     list-style: none;
-    font-size: 21pt;
+    font-size: 20pt;
     font-weight: 300;
 }
 nav ul li, footer ul li {
@@ -51,8 +51,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
@@ -78,17 +78,17 @@ ul.posts li {
   float: left;
   margin: 15px 15px 15px 15px;
 }
- 
+
 .pub li p {
   text-align: left;
   line-height: 1em;
 }
- 
+
 .pub li {
   padding: 0px;
   overflow: auto;
 }
- 
+
 .pub li:hover {
   background: #ffffff;
 }
