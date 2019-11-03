@@ -32,7 +32,7 @@ a {
     color: #999;
 }
 a:hover {
-    background-color: #424242;
+    background-color: #EBEBEB;
 }
 h1 {
     font-size: 3em;
@@ -47,7 +47,7 @@ p {
     line-height: 1.4em;
 }
 footer {
-    border-top: 1px solid #424242;
+    border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
