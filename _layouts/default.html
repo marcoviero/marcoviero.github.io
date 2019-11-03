@@ -1,42 +1,45 @@
----
----
-
-<!doctype html>
-<!--
-  Minimal Mistakes Jekyll Theme 4.16.0 by Michael Rose
-  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
-  Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
--->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+<!DOCTYPE html>
+<html>
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+<link href='https://fonts.googleapis.com/css?family=Raleway:200,300,400' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yantramanav:400,300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    </head>
+  <body>
+    <nav>
+      <ul>
+	<li><a href="/">Home</a></li>
+	<!--<li><a href="/">Blog</a></li>-->
+	<li><a href="research.html">Research</a></li>
+	<!-- <li><a href="teaching.html">Teaching</a></li> -->
+  <li><a href="https://github.com/marcoviero" target="_blank">Code</a></li>
+  <li><a href="http://www.correlatednoise.com" target="_blank">CN</a></li>
+	<!--<li><a href="contact.html">Contact</a></li>-->
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  <li style="float: right"><a href="https://www.linkedin.com/in/marco-viero/" target="_blank"><img src="images/linkedin.png" width=40px></a></li>
 
-    {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+	<li style="float: right"><a href="https://scholar.google.com/citations?user=ivq_rJQAAAAJ" target="_blank"><img src="images/scholar.png" width=40px></a></li>
 
-    <div class="initial-content">
+	<li style="float: right"><a href="https://twitter.com/deutschmarco" target="_blank"><img src="images/twitter.png" width=40px></a></li>
+
+
+	</ul>
+      </nav>
+    <div class="container">
+
       {{ content }}
-    </div>
 
-    {% if site.search == true %}
-      <div class="search-content">
-        {% include_cached search/search_form.html %}
-      </div>
-    {% endif %}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include_cached footer.html %}
+      </div><!-- /.container -->
+<!--
+    <footer>
+      <ul>
+	<li><a href="mailto:marco.viero@gmail.com">email</a></li>
+	<li><a href="https://github.com/marcoviero">github.com/marcoviero</a></li>
+	</ul>
       </footer>
-    </div>
+-->
 
-    {% include scripts.html %}
-
-  </body>
-</html>
+    </body>
+  </html>
