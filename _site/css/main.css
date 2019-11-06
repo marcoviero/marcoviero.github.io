@@ -6,7 +6,7 @@ body {
     color: #EBEBEB;
     background-color: #243447;
 }
-    
+
 .center {
     margin: 20px auto;
     width: 60%;
@@ -52,8 +52,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
@@ -79,19 +79,19 @@ ul.posts li {
   float: left;
   margin: 15px 15px 15px 15px;
 }
- 
+
 .pub li p {
   text-align: left;
   line-height: 1em;
 }
- 
+
 .pub li {
   padding: 0px;
   overflow: auto;
 }
- 
+
 .pub li:hover {
-  background: #ffffff;
+  background: #;
 }
 
 .pub blockquote {
